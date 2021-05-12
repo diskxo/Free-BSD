@@ -1,13 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!--Librerie Bootsrap-->
+    <link href="./assets/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Animazioni -->
+    <link rel="stylesheet" href="./assets/aos.css" />
+
+    <!--Specifico la posizione del file esterno main.css-->
+    <link rel="stylesheet" href="./assets/main.css">
+    <!--Titolo pagina-->
+    <title>Free-BSD</title>
 </head>
+
 <body>
-    <h1>Hallow Hallow Hallow</h1>
-    <h2>Prova modificaaaaaaaaaa</h2>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Free-BDS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Storia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Utilizzo Generale</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pro e Contro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Conclusioni</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="slide1">
+        <div class="container">
+            <div class="row">
+                <!--"data-aos="fade-up"" All'interno del tag div specifica l'animazione del testo verso l'alto-->
+                <div class="col-sm-6" data-aos="fade-up">
+                    <!--Classi di Bootstrap per creare una sezione / banner con testo spostato verso sinistra-->
+                    <h1>Free-BSD</h1>
+                    <p>Pagina web e ricerca di Riccardo Gualandris,<br> Matteo Piffari e Nicola Preda</p>
+                    <a href="#storia" class="btn btn-storia">Slide successiva</a>
+                </div>
+                <div class="col-sm-6" data-aos="fade-up">
+                    <!--Logo Free-BSD destra-->
+                    <img class="logo" src="./assets/img/freebsd.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Librerie Bootsrap-->
+    <script src="./assets/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Animazioni -->
+    <script src="./assets/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 900,
+        });
+    </script>
+
 </body>
+
 </html>

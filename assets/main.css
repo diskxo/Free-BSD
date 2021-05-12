@@ -1,0 +1,36 @@
+.navbar-brand {
+    /*Sposta leggermente la scritta "Free-BSD" verso destra*/
+    margin-left: 2%;
+}
+
+.slide1 {
+    /*Imposta un'altezza minima per la slide iniziale*/
+    min-height: 60vh;
+    /*Imposta il background per la slide iniziale*/
+    background-color: rgb(233, 122, 122);
+}
+
+.slide1 .col-sm-6 {
+    /*Sposta il testo della slide1 20h in giù, per staccarsi leggermente dalla navbar*/
+    margin-top: 20vh;
+}
+
+.slide1 .logo {
+    /*Stile per il logo di FreeBSD*/
+    max-height: 40vh;
+    float: right;
+}
+
+.slide1 .btn-storia {
+    /*Modifica lo stile del bottone della slide 1*/
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.slide1 .btn-storia:hover {
+    /*Design che assume il bottone quando il mouse si trova sopra si esso*/
+    background-color: Black;
+    color: white;
+    border-color: black;
+}
