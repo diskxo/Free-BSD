@@ -7,10 +7,10 @@
     /*Imposta un'altezza minima per la slide iniziale*/
     min-height: 60vh;
     /*Imposta il background per la slide iniziale*/
-    background-color: rgb(233, 122, 122);
+    background-color: rgb(233, 191, 122);
 }
 
-.slide1 .col-sm-6 {
+.slide1 .col-sm-8 {
     /*Sposta il testo della slide1 20h in giù, per staccarsi leggermente dalla navbar*/
     margin-top: 20vh;
 }
@@ -18,7 +18,7 @@
 .slide1 .logo {
     /*Stile per il logo di FreeBSD*/
     max-height: 40vh;
-    float: right;
+    margin: 100px;
 }
 
 .slide1 .btn-storia {
