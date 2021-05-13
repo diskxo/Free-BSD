@@ -3,53 +3,65 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap');
 body {
-    font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar-brand {
-    /*Sposta leggermente la scritta "Free-BSD" verso destra*/
-    margin-left: 2%;
+  /*Sposta leggermente la scritta "Free-BSD" verso destra*/
+  margin-left: 2%;
 }
 
 .nav-link {
-    font-weight: 500;
-    float: right;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  float: right;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .collapse {
-    /*Margine di destra per i link di collegamento*/
-    margin-right: 3%;
+  /*Margine di destra per i link di collegamento*/
+  margin-right: 3%;
 }
 
 .slide1 {
-    /*Imposta un'altezza minima per la slide iniziale*/
-    min-height: 60vh;
-    /*Imposta il background per la slide iniziale*/
-    background-color: rgb(233, 191, 122);
+  /*Imposta un'altezza minima per la slide iniziale*/
+  min-height: 90vh;
+  /*Imposta il background per la slide iniziale*/
+  background: #f2994a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f2c94c,
+    #f2994a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f2c94c,
+    #f2994a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .slide1 .col-sm-8 {
-    /*Sposta il testo della slide1 20h in giù, per staccarsi leggermente dalla navbar*/
-    margin-top: 20vh;
+  /*Sposta il testo della slide1 20h in giù, per staccarsi leggermente dalla navbar*/
+  margin-top: 20vh;
 }
 
 .slide1 .logo {
-    /*Stile per il logo di FreeBSD*/
-    max-height: 40vh;
-    margin: 100px;
+  /*Stile per il logo di FreeBSD*/
+  max-height: 40vh;
+  margin: 100px;
+  margin-top: 18vh;
 }
 
 .slide1 .btn-storia {
-    /*Modifica lo stile del bottone della slide 1*/
-    padding: 10px;
-    border-radius: 10px;
-    background-color: white;
+  /*Modifica lo stile del bottone della slide 1*/
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
 }
 
 .slide1 .btn-storia:hover {
-    /*Design che assume il bottone quando il mouse si trova sopra si esso*/
-    background-color: Black;
-    color: white;
-    border-color: black;
+  /*Design che assume il bottone quando il mouse si trova sopra si esso*/
+  background-color: Black;
+  color: white;
+  border-color: black;
 }
