@@ -65,3 +65,43 @@ body {
   color: white;
   border-color: black;
 }
+
+.slide2 {
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.storia {
+  margin-top: 10vh;
+}
+
+.slide2 .parte1 {
+  margin-bottom: 7vh;
+}
+
+.slide2 .parte2 {
+  text-align: right;
+}
+
+.slide2_immagine1 {
+  margin-left: 100vh;
+  border-radius: 1.7%;
+  max-width: auto;
+  max-height: 350px;
+}
+
+.slide2_immagine2 {
+  margin-right: 100vh;
+  max-width: auto;
+  max-height: 300px;
+  border-radius: 2%;
+}
