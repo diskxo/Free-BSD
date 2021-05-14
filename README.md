@@ -24,4 +24,4 @@
 
 - [@diskxo_](https://github.com/diskxo)
 - [@Project-Piffa](https://github.com/Project-Piffa)
-- [@rickyguala] (https://github.com/rickyguala)
+- [@rickyguala](https://github.com/rickyguala)
