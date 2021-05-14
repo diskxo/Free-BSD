@@ -17,8 +17,8 @@
 ## ⛏️ Built With <a name = "tech_stack"></a>
 
 - [VSCode](https://code.visualstudio.com/) - Text Editor
-- [HTML](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png) 
-- [CSS](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png)
+- [HTML](https://en.wikipedia.org/wiki/HTML) 
+- [CSS](https://en.wikipedia.org/wiki/CSS)
 
 ## ✍️ Authors <a name = "authors"></a>
 
