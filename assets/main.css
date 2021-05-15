@@ -132,6 +132,13 @@ h5 {
   max-height: 40vh;
   margin: 100px;
   margin-top: 28vh;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+
 }
 
 /*Slide 2*/
@@ -146,6 +153,14 @@ h5 {
   border-radius: 10px;
   /*Imposta l'ombra dell'immagine*/
   filter: drop-shadow(0px 12px 14px rgba(0, 0, 0, 0.35));
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  
+
 }
 
 .storia_2 {
@@ -199,6 +214,7 @@ h5 {
 .custom-shape-divider-bottom-1621048038 {
   position: relative;
   margin-bottom: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -230,16 +246,6 @@ h5 {
 .card {
   margin: 40px;
   padding: 20px;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-/*Effetto di hovering sula card*/
-
-.card:hover,
-.card:focus {
-  -webkit-transform: scale(1.01);
-  transform: scale(1.01);
 }
 
 .card .card-img {
@@ -258,4 +264,59 @@ h5 {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f2c94c, #f2994a);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*Differenze rispetto a linux*/
+.slide6{
+  margin-top: 40vh;
+}
+.linux_img{
+  margin-top: -5vh;
+  max-width: 500px;
+  border-radius: 10px;
+  /*Imposta l'ombra dell'immagine*/
+  filter: drop-shadow(0px 12px 14px rgba(0, 0, 0, 0.35));
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+
+}
+
+
+/*Utilizzo generale*/
+.slide7{
+  margin-top: 40vh;
+  min-height: 80vh;
+  background: #f2994a;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f2c94c, #f2994a);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f2c94c, #f2994a);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/*Slide Conclusiva*/
+
+.slide8{
+  margin-top: 20vh;
+  margin-bottom: 30vh;
+}
+
+/*Mobile View*/
+
+@media only screen and (max-width:1300px){
+  .slide1 .logo{
+    visibility:hidden;
+  }
+
+  img{
+    visibility:hidden;
+  }
+  .card-img{
+    visibility: visible;
+  }
 }
