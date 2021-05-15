@@ -7,6 +7,77 @@ body {
 }
 
 
+/*--Generali--*/
+
+h1 {
+    /*Aumenta lo spessore dei caratteri nei tag h1*/
+    font-weight: 750;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+h5 {
+    font-weight: 750;
+}
+
+.btn-orange {
+    margin-top: 15px;
+    padding: 15px;
+    /*Modifica lo stile del bottone per la slide successiva (con sfondo arancione)*/
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-orange:hover {
+    /*Design che assume il bottone quando il mouse si trova sopra si esso*/
+    background-color: Black;
+    color: white;
+    border-color: black;
+}
+
+.btn-white {
+    margin-top: 15px;
+    /*Modifica lo stile del bottone per la slide successiva (con sfondo bianco)*/
+    padding: 15px;
+    border-radius: 10px;
+    background: #f2994a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient( to right, #f2c94c, #f2994a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( to right, #f2c94c, #f2994a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+}
+
+.btn-white:hover {
+    text-decoration: none;
+    background: black;
+    color: white;
+}
+
+
+/*--Scrollbar--*/
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: trasnparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d4d4d4;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #8b8b8b;
+}
+
+
 /*Barra di navigazione*/
 
 .navbar-brand {
@@ -64,20 +135,6 @@ body {
     margin-top: 28vh;
 }
 
-.slide1 .btn-storia {
-    /*Modifica lo stile del bottone della slide 1*/
-    padding: 10px;
-    border-radius: 10px;
-    background-color: white;
-}
-
-.slide1 .btn-storia:hover {
-    /*Design che assume il bottone quando il mouse si trova sopra si esso*/
-    background-color: Black;
-    color: white;
-    border-color: black;
-}
-
 
 /*Slide 2*/
 
@@ -85,22 +142,128 @@ body {
     margin-top: 20vh;
 }
 
-.slide2_immagine1 {
+.slideimg {
     margin-top: 15vh;
     max-width: 500px;
     border-radius: 10px;
     /*Imposta l'ombra dell'immagine*/
-    filter: drop-shadow(0px 62px 104px rgba(0, 0, 0, 0.35));
+    filter: drop-shadow(0px 12px 14px rgba(0, 0, 0, 0.35));
 }
 
 .storia_2 {
     margin-top: 20vh;
 }
 
+
+/*Slide 3*/
+
+
+/*Top Divider*/
+
+.custom-shape-divider-top-1621046958 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1621046958 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 56px;
+}
+
+.custom-shape-divider-top-1621046958 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.slide3 {
+    margin-top: 20vh;
+    /*Imposta il background per la slide iniziale*/
+    background: #f2994a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient( to right, #f2c94c, #f2994a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( to right, #f2c94c, #f2994a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.caratteristiche {
+    margin-top: 20vh;
+}
+
 .slide2_immagine2 {
-    margin-top: 15vh;
-    max-width: 500px;
-    border-radius: 10px;
-    /*Imposta l'ombra dell'immagine*/
-    filter: drop-shadow(0px 62px 104px rgba(0, 0, 0, 0.35));
+    margin-bottom: 30vh;
+}
+
+
+/*Bottom divider*/
+
+.custom-shape-divider-bottom-1621048038 {
+    position: relative;
+    margin-bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1621048038 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 56px;
+}
+
+.custom-shape-divider-bottom-1621048038 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+/*Slide 4*/
+
+.slide4 {
+    margin-top: 20vh;
+}
+
+.slide4 h1 {
+    margin-bottom: 7vh;
+}
+
+.card {
+    margin: 40px;
+    padding: 20px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+
+/*Effetto di hovering sula card*/
+
+.card:hover,
+.card:focus {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
+
+.card .card-img {
+    width: 100px;
+    margin: 20px;
+}
+
+
+/*--Confronti--*/
+
+.slide5 {
+    margin-top: 20vh;
+    /*Imposta il background per la slide iniziale*/
+    background: #f2994a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient( to right, #f2c94c, #f2994a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( to right, #f2c94c, #f2994a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
