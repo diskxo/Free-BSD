@@ -308,6 +308,9 @@ p {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.slide7 video{
+    margin-top: 10vh;
+}
 
 /*Slide Conclusiva*/
 
@@ -315,6 +318,7 @@ p {
     margin-top: 20vh;
     margin-bottom: 30vh;
 }
+
 
 
 /*Mobile View*/

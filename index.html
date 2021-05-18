@@ -41,8 +41,12 @@
                     <a class="nav-link" href="#linux">Differenze Linux</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#conclusioni">Conclusioni</a>
+                    <a class="nav-link" href="#alternative-bsd">Alternative BSD</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#utilizzo-generale">Utilizzo generale</a>
+                </li>
+                
             </ul>
         </div>
     </nav>
@@ -232,9 +236,7 @@ E' molto utilizzato in ambito server, in quanto è molto stabile e facilmente sc
             <div class="row">
                 <div class="col-sm-7" data-aos="fade-up">
                     <h1 class="caratteristiche">Ports </h1>
-                    <p>Sono un altro metodo per l’installazione di applicazioni compatibili con FreeBSD, sono molto importanti e convenienti per diverse motivazioni: con il comando "make install" possiamo installare i pacchetti. Rispetto ai metodi di installazione originari in binario come pkg comprendono un catalogo molto più grande e specifico.
-
-Rispetto ai soliti metodi di installazione in binario come pkg comprendono un catalogo molto più grande e specifico in certi punti di vista </p>
+                    <p>Sono un altro metodo per l’installazione di applicazioni compatibili con FreeBSD, sono molto importanti e convenienti per diverse motivazioni: con il comando "make install" possiamo installare i pacchetti. Rispetto ai metodi di installazione originari in binario come pkg comprendono un catalogo molto più grande e specifico.    </p>
                 </div>
                 <div class="col-sm-3" data-aos="fade-up">
                     <img src="assets/img/ports.png" class="slideimg" data-aos="fade-up">
@@ -270,21 +272,39 @@ Rispetto ai soliti metodi di installazione in binario come pkg comprendono un ca
 
     </div>
 
-    
-    <div class="slide6" id="differenze-linux">
+    <!--Altri BSD-->
+    <div class="slide6" id="alternative-bsd">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                <h1 data-aos="fade-right">Differenze rispetto a Linux</h1>
-                <p data-aos="fade-left">Do nisi aute veniam ipsum culpa eu Lorem. Dolor elit ea consequat ad tempor velit qui amet pariatur minim fugiat ut mollit. Ut voluptate non officia eiusmod velit irure tempor qui commodo consequat laboris pariatur ut tempor. Pariatur reprehenderit nostrud excepteur nisi occaecat do minim id. Id quis fugiat velit quis.</p>
+                <h1 data-aos="fade-right">OpenBSD</h1>
+                <p data-aos="fade-left">OpenBSD è più focalizzato verso la sicurezza e possiede alcuni caratteri come una crittografia incorporata molto più complessa rispetto a quella standard (e spesso controproducente) di FreeBSD, il dico non è controllato da un'unica chiave crittografica ma è divisa in sezioni e ogni dispositivo ne genera di nuove (avere dei backup delle chiavi è essenziale per un cambiamento hardware) </p>
                 </div>
 
                 <div class="col-sm-6">
-                    <img src="assets/img/linux-console.png" class="linux_img" data-aos="fade-up">
+                    <img src="assets/img/OpenBSD_Logo.svg.png" class="linux_img" data-aos="fade-up">
 
                 </div>
             </div>
         </div>
+        <!--Seconda Parte-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="assets/img/NetBSD.svg.png" class="slideimg" data-aos="fade-up">
+                </div>
+                <div class="col-sm-6" data-aos="fade-up">
+                    <h1 class="storia">NetBSD</h1>
+                    <p>NetBSD, si concentra di più su portabilità e gestione sistemi di rete </p>
+                    <br>
+                    <a href="#utilizzo-generale" class="btn-white">Slide successiva</a>
+
+                </div>
+            </div>
+
+        </div>
+    
+
     </div>
 
     <!--Utilizzo Generale-->
@@ -297,34 +317,24 @@ Rispetto ai soliti metodi di installazione in binario come pkg comprendono un ca
             </svg>
         </div>
         <!--Prima Parte-->
+        
+        
         <div class="container">
-            <div class="row" data-aos="fade-left">
-                <div class="col-sm-7">
-                    <h1 class="caratteristiche">Utilizzo Generale</h1>
-                    <p>Utilizzato soprattutto in ambito server: questo è dovuto alla stabilità e scalabilità <br> della sua parte di networking. Grande attenzione è posta <br> inoltre anche alle problematiche di sicurezza,
-                        <br>ed attualmente sono disponibili tre sistemi di firewall (IPFW, IPFilter e PF).</p>
-                </div>
-                <div class="col-sm-3">
-                    <img src="assets/img/Processor.jpeg" class="slideimg" data-aos="fade-up">
-
+            <div class="row" data-aos="fade-right">
+                <div class="d-flex justify-content-center" data-aos="fade-up">
+                    <h1 class="storia">Utilizzo Generale</h1>
+                    
+                    
                 </div>
             </div>
         </div>
-        <!--Seconda Parte-->
+
         <div class="container">
-            <div class="row" data-aos="fade-right">
-                <div class="col-sm-6" >
-                    <img src="assets/img/Processor.jpeg" class="slideimg" data-aos="fade-up">
+            <div class="row justify-content-center">
+                <video width="400" height="320" controls>
+                    <source src="assets/img/FreeBSD-Video.mp4" type="video/mp4">
 
-                </div>
-                <div class="col-sm-6">
-
-                    <p class="caratteristiche">I ports liberano l'utente dal problema delle dipendenze relative ai pacchetti, cioè il complesso di altri programmi e librerie necessari per assicurare il corretto funzionamento sulla macchina del programma che stiamo installando;
-                        pertanto, installando un programma tramite l'albero dei ports, verranno scaricati i sorgenti più aggiornati del programma stesso, e non il suo eseguibile binario, ed anche i sorgenti aggiornati di tutti i programmi dai quali esso
-                        dipende.
-                    </p>
-                    <a href="#conclusione" class="btn-orange">Slide successiva</a>
-                </div>
+                </video>
             </div>
         </div>
 
@@ -342,11 +352,11 @@ Rispetto ai soliti metodi di installazione in binario come pkg comprendono un ca
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h1>Slide Conclusiva</h1>
+                    <h1 class="storia">Slide Conclusiva</h1>
                     <p class="thumbnail">Riccardo Gualandris, Matteo Piffari e Nicola Preda</p>
                 </div>
                 <div class="col-sm-6">
-                    <img src="assets/img/Processor.jpeg" class="card-img" data-aos="fade-up">
+                    <img src="assets/img/freebsdlogo-slideconclusiva.jpg" class="slideimg" data-aos="fade-up">
 
                 </div>
             </div>
